@@ -1,20 +1,32 @@
 
 :root {
-    --primary: #E6584B;
-    --secondary: #68A5E8;
-    --borders: black;
-    --nav-text: #415058;
-    --all-text: white;
+    --mint-cream: #f1fffaff;
+    --tea-green: #ccfccbff;
+    --celadon: #96e6b3ff;
+    --fern-green: #568259ff;
+    --outer-space: rgb(117, 132, 118);
 }
 
-
-
-
 body {
-    background-color: lightblue;
+    background-color: var(--outer-space);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #dogs {
     height: 100%;
 }
+
+#main-nav li {
+    list-style-type: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: var(--tea-green);
+}
+
+
 
