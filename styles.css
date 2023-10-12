@@ -1,3 +1,20 @@
-body {
-    
+
+:root {
+    --primary: #E6584B;
+    --secondary: #68A5E8;
+    --borders: black;
+    --nav-text: #415058;
+    --all-text: white;
 }
+
+
+
+
+body {
+    background-color: lightblue;
+}
+
+#dogs {
+    height: 100%;
+}
+
