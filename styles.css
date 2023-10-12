@@ -8,18 +8,40 @@
     --outer-space: rgb(117, 132, 118);
 }
 
-body {
-    background-color: var(--outer-space);
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#dogs {
+.parallax {
     height: 100%;
-}
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
+  .chewie {
+    background-image: url("images/chewie.jpg");
+  }
+  .ojo {
+    background-image: url("images/ojo.JPG");
+  }
+  .pluto {
+    background-image: url("images/pluto.jpg");
+  }
+
+  
 #main-nav li {
     list-style-type: none;
 }
