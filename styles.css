@@ -29,5 +29,8 @@ h1 {
     color: var(--tea-green);
 }
 
+.hide {
+  display: none; 
+}
 
 
