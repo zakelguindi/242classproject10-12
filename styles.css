@@ -31,13 +31,13 @@ h1 {
     position: relative;
   }
 
-  .chewie {
+  #chewie {
     background-image: url("images/chewie.jpg");
   }
-  .ojo {
+  #ojo {
     background-image: url("images/ojo.JPG");
   }
-  .pluto {
+  #pluto {
     background-image: url("images/pluto.jpg");
   }
 
